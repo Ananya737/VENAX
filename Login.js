@@ -206,7 +206,7 @@ let rentNow=()=>{
         location.href="BookingForm.html";
     }
     else{
-        alert("Please login first");
+        Swal.fire("Please login first!");
     }
 }
 
