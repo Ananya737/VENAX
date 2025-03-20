@@ -994,7 +994,9 @@ color: #f5b754;
 #clicked{
 display: none;
 }
-
+#bars{
+  display: none;
+}
 
 
 
