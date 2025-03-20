@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./BookingForm.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="sec1">
+
+          <!-- Navbar -->
+    <header class="navbar">
+        <a href="./Index.html"> <h1 class="logo"><span id="v">V</span> E N A X</h1> </a>
+      <ul class="navbarContent">
+        <a href="./Index.html">  <li>Home</li>      </a>
+        <a href="#">  <li>About</li>     </a>
+        <a href="#">  <li>Services</li>  </a>
+        <a href="#">  <li>Cars</li>      </a>
+        <a href="#">  <li>Pages</li>     </a>
+        <a href="#">  <li>Blog</li>      </a>
+        <a href="#">  <li>Contact</li>   </a>
+  
+      </ul>
+  
+      <div id="contact" >
+        <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+        <div id="help">
+          <p id="number">8839073108</p>
+        </div>
+      </div>
+  
+     
+        <a href="#" id="signupbtn" onclick="logout()">
+          <div id="userInfo">
+        <i class="fa-solid fa-user" id="userIcon"></i>
+        <p id="loginBtn" >Logout</p>
+      </div>
+        </a>
+      
+    </header>
+
+
+<div class="formContainer"
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="500">
+    
+    <div class="heading">
+    <h1>Booking Form  </h1>
+    </div>
+    <!-- Form  -->
+
+    <form>
+        <div class="container">
+            <div class="container1">
+                <input type="text" id="name" placeholder="Name*">
+
+                <input type="text" id="numberr" placeholder="Phone*">
+
+                <select id="pickUp">
+                    <option value="Pick up location">Pick up location</option>
+                    <option value="Bhopal" >Bhopal</option>
+                    <option value="Sagar" >Sagar</option>
+                    <option value="Indore" >Indore</option>
+                    <option value="Jabalpur" >Jabalpur</option>
+                    <option value="Vidisha" >Vidisha</option>
+                </select>
+
+                <select id="dropOff">
+                    <option value="Drop off location" selected>Drop off location</option>
+                    <option value="Bhopal" >Bhopal</option>
+                    <option value="Sagar" >Sagar</option>
+                    <option value="Indore" >Indore</option>
+                    <option value="Jabalpur" >Jabalpur</option>
+                    <option value="Vidisha" >Vidisha</option>
+                </select>
+                
+            </div>
+
+            <div class="container2">
+                <input type="email" id="email" placeholder="Email*">
+                
+                <select id="chooseCar">
+                    <option value="Choose Car" selected>Choose Car</option>
+                    <option value="All" >All</option>
+                    <option value="Luxury Cars" >Luxury Cars</option>
+                    <option value="Sport Cars" >Sport Cars</option>
+                    <option value="SUVs" >SUVs</option>
+                    <option value="Convertible" >Convertible</option>
+                </select>
+                       <!-- doubt -->
+                <input type="date" id="pickDate" placeholder="Pick up date">              
+
+                <input type="date" id="returnDate" placeholder="Return date">
+            </div>
+        </div>
+
+        <div class="additionalNote">
+            <input type="text"  id="additionalNote" placeholder="Additional Note">
+        </div>
+
+        <div class="rentNow">
+            <input type="submit" value="Rent now" id="rentNow" onclick="return rentt()">
+        </div>
+    </form>
+
+</div>
+
+</div>
+
+<div id="show">
+  
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+<script src="./CRUD.js"></script>
+
+    <script src="Login.js"></script>
+</body>

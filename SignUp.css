@@ -1,0 +1,249 @@
+.sec1{
+  height: 120vh;
+  background: url(./car\ 4.jpg) no-repeat center center/cover;
+    
+    
+    
+   
+}
+body{
+  position: relative;
+  
+  
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+/* Navbar  */
+
+.navbar{
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   border-radius: 0px 0px 90px 90px;
+  }
+  .navbarContent{
+    display: flex;
+    gap: 40px;
+    /* margin-left: 60px; */
+  }
+  .navbarContent li{
+    list-style: none;
+    font-size: 17px;
+  }
+  .navbarContent li:hover{
+    color: #f5b754;
+  }
+  #v{
+    color: #f5b754 ;
+  }
+  .logo{
+    font-size: 35px;
+    text-shadow: 5px 3px rgb(26, 26, 26);
+    
+  }
+  #callIcon{
+    border: 1px solid #ffffff ;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+    color: #f5b754;
+  }
+  #callIcon:hover {
+    background-color: #f5b754;
+    color: black;
+    border: none;
+  }
+  #contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin-left: 60px; */
+  } 
+#number{
+  font-size: 18px;
+}
+#signupbtn{
+  text-decoration: none;
+  color: white;
+  /* margin-left: 100px ; */
+}
+#userInfo{
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#userIcon{
+  font-size: 25px;
+  color: #f5b754;
+}#userInfo p{
+  font-size: 16px;
+  color: #ffffff;
+}
+#signupbtn{
+   border: 1px solid #ffffff ;
+   border-radius: 70px;
+   padding: 3px 10px 3px 10px;
+}
+#signupbtn:hover{
+  background-color: #f5b754;
+  border: none;
+}
+#signupbtn:hover #userIcon  {
+  color: #000000;
+}
+#signupbtn:hover #loginBtn {
+  color: #000000;
+} 
+
+
+
+       /* Sign Up Form  */
+
+#signUp{
+  position: absolute;
+  top: 12%;
+  left: 27%;
+  width: 40%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(34, 32, 32);
+  box-shadow: 40px 40px 30px 30px rgba(22, 20, 20, 0.5);
+}
+#signUp form{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* gap: 30px; */
+  width: 70%;
+  background-color: rgb(34, 32, 32);
+  height: 60vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+#name:hover{
+  background-color: white;
+  transition: all 0.5s;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+#email:hover{
+  background-color: white;
+  transition: all 0.5s;
+}
+.num{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+#num:hover{
+  background-color: white;
+  transition: all 0.5s;
+}
+.pass{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+#pass:hover{
+  background-color: white;
+  transition: all 0.5s;
+}
+.cpass{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+#cpass:hover{
+  background-color: white;
+  transition: all 0.5s;
+}
+.heading{
+  background-color: #f5b754;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  width: 93%;
+  bottom: 87%;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  
+}
+input{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #4c4747;
+  height: 24px;
+}
+#submit{
+  
+  background-color: #efb251;
+  padding: 15px 15px 35px 15px;
+  border-radius: 90px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#submit:hover{
+  background-color: #d59950;
+  color: #000000;
+ 
+}
+.signIn{
+  margin-top: 130px;
+  color: white;
+  font-size: 15px;
+}
+.signIn a{
+  text-decoration: none;
+  color: blue;
+}
+form p{
+  color: red;
+}

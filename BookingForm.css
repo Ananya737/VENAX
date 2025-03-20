@@ -1,0 +1,239 @@
+
+
+.sec1{
+    position: relative;
+    left: 0px;
+    left: 0px;
+    height: 120vh;
+    background: url(./car\ 4.jpg) no-repeat center center/cover;
+}
+.sec1::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+  /* Navbar  */
+  
+  .navbar{
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   border-radius: 0px 0px 90px 90px;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbarContent{
+    display: flex;
+    gap: 40px;
+    /* margin-left: 60px; */
+  }
+  .navbarContent li{
+    list-style: none;
+    font-size: 17px;
+  }
+  .navbarContent a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbarContent li:hover{
+    color: #f5b754;
+  }
+  #v{
+    color: #f5b754 ;
+  }
+  .logo{
+    font-size: 35px;
+    text-shadow: 5px 3px rgb(26, 26, 26);
+    
+  }
+  #callIcon{
+    border: 1px solid #ffffff ;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+    color: #f5b754;
+  }
+  #callIcon:hover {
+    background-color: #f5b754;
+    color: black;
+    border: none;
+  }
+  #contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin-left: 60px; */
+  } 
+#number{
+  font-size: 18px;
+}
+#signupbtn{
+  text-decoration: none;
+  color: white;
+  
+}
+#userInfo{
+  padding-right:10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#userIcon{
+  font-size: 20px;
+  color: #f5b754;
+}#userInfo p{
+  font-size: 16px;
+  color: #ffffff;
+}
+#signupbtn{
+   border: 1px solid #ffffff ;
+   border-radius: 70px;
+  
+}
+#signupbtn:hover{
+  background-color: #f5b754;
+  border: none;
+}
+#signupbtn:hover #userIcon  {
+  color: #000000;
+}
+#signupbtn:hover #loginBtn {
+  color: #000000;
+} 
+
+            /* Booking Form  */
+
+.formContainer{
+    position: absolute;
+    top: 13%;
+    left: 22%;
+}
+.container{
+    border-radius: 0px 0px 20px 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.container{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 280px;
+    background-color:  #1b1b1b;
+}
+input{
+    width: 90%;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #303030;
+    border: 2px solid #222;
+    padding-left: 20px;
+    color: grey;
+}
+input:hover{
+  background-color: white;
+}
+
+#number{
+  font-size: 13px;
+}
+#pickUp{
+    width: 95%;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #303030;
+    border: 2px solid #222;
+    padding-left: 20px;
+    color: grey;
+}
+#pickUp:hover{
+  background-color: white;
+}
+#dropOff{
+    width: 95%;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #303030;
+    border: 2px solid #222;
+    padding-left: 20px;
+    color: grey;
+}
+#dropOff:hover{
+  background-color: #fff;
+}
+#chooseCar{
+    width: 95%;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #303030;
+    border: 2px solid #222;
+    color: grey;
+    padding-left: 20px;
+}
+#chooseCar:hover{
+  background-color: #fff;
+}
+.heading{
+    width: 100%;
+    height: 80px;
+    background-color: #f5b754;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.formContainer{
+    width: 55%;
+    display: flex;
+    flex-direction: column;    
+}
+.additionalNote{
+    position: absolute;
+    bottom: 19%;
+    width: 100% ;
+    margin-left: 25px;
+}
+#additionalNote{
+    height: 120px;
+    border-radius: 20px;
+    
+}
+.rentNow{
+    position: absolute;
+    bottom: 8%;
+    width: 100% ;
+    margin-left: 40px;
+}
+#rentNow{
+    background-color: #f5b754;
+    color: black;
+    font-weight: 700;
+}
+#rentNow:hover{
+    background-color: #eebc6d;
+}

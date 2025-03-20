@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Home.css">
+    <title>Document</title>
+</head>
+<body>
+    
+      <!-- Loader Overlay -->
+
+  <div id="loader-overlay">
+
+    <img src="./2.avif" alt="" class="carOne">       
+
+    <div id="loading-bar"></div>
+
+  </div>
+ 
+  <!-- Curtain Element -->
+   
+  <div id="curtain">
+
+   
+    <div><img src="./car 1.jpg" alt="">
+
+
+      <header class="navbar">
+
+        
+
+
+
+        <h1 class="logo"><span id="v">V</span> E N A X</h1>
+      <ul class="navbarContent">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Cars</li>
+        <li>Pages</li>
+        <li>Blog</li>
+        <li>Contact</li>
+  
+      </ul>
+  
+      <div id="contact" >
+        <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+        <div id="help">
+          <p id="number">8839073108</p>
+        </div>
+      </div>
+  
+     
+        <a href="#" id="signupbtn">
+          <div id="userInfo">
+        <i class="fa-solid fa-user" id="userIcon"></i>
+        <p id="loginBtn">Login or Sign Up</p>
+      </div>
+        </a>
+      
+    </header> 
+
+ 
+      <div class="slideOneContent" 
+      data-aos="fade-down"
+      data-aos-offset="9000"
+      data-aos-easing="ease-in-sine" 
+      data-aos-delay="100"
+      data-aos-duration="9000"> 
+       
+
+
+         <h1 class="ananya">Rent a car <p>effortlessly with competitive prices <br> and flexible options to suit your travel needs.</p></h1>
+
+         
+          
+        
+        
+      </div>
+     
+    </div>
+  
+
+
+    
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Website Content -->
+
+   
+  
+
+
+
+
+  <div id="content">
+    
+
+    <!--          Section 1        -->
+
+
+    <!-- Swiper 1 -->
+    <header class="navbar">
+
+      <input type="checkbox" id="clicked">
+
+      <section id="verticalNav">
+        <ul class="verticalNavbarContent">
+          <a href="./Index.html"><li class="diffColor">Home <i class="fa-solid fa-chevron-down"></i></li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Services <i class="fa-solid fa-chevron-down"></i></li></a>
+          <a href="#"><li>Cars <i class="fa-solid fa-chevron-down"></i></li></a>
+          <a href="#"><li class="diffColor">Pages <i class="fa-solid fa-chevron-down"></i></li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+    
+        </ul>
+        
+      </section>
+     
+       <h1 class="logo"><span id="v">V</span> E N A X</h1>
+     <ul class="navbarContent">
+       <a href="./Index.html"><li>Home</li></a>
+       <a href="#"><li>About</li></a>
+       <a href="#"><li>Services</li></a>
+       <a href="#"><li>Cars</li></a>
+       <a href="#"><li>Pages</li></a>
+       <a href="#"><li>Blog</li></a>
+       <a href="#"><li>Contact</li></a>
+ 
+     </ul>
+ 
+     <div id="contact" >
+       <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+       <div id="help">
+         <p id="number">8839073108</p>
+       </div>
+     </div>
+ 
+    
+       <a href="./SignUp.html" id="signupbtn">
+         <div id="userInfo">
+       <i class="fa-solid fa-user" id="userIcon"></i>
+       <p id="loginBtn">Login or Sign Up</p>
+     </div>
+       </a>
+     
+       <label for="clicked" id="bars"><i class="fa-solid fa-bars"></i></label>
+   </header>
+  
+    <div class="swiper mySwiper">
+     <div class="swiper-wrapper" id="swiperone">
+
+      <!-- Slide 1 -->
+
+
+       <div class="swiper-slide" ><img src="./car 1.jpg" alt="">
+         
+
+
+         <div class="slideOneContent" 
+         data-aos="fade-up"
+      data-aos-offset="500"
+      data-aos-easing="ease-in-sine" 
+      data-aos-delay="500"
+      data-aos-duration="9000"> 
+         
+   
+   
+           <h1 class="ananya">Rent a car <p>effortlessly with competitive prices <br> and flexible options to suit your travel needs.</p> </h1>
+           <button id="mainbtn" onclick="rentNow()">Rent Now</button>
+         </div>
+        
+       </div>
+
+       <!-- Slide 2 -->
+   
+       <div class="swiper-slide"><img src="./car 4.jpg" alt="">
+         <!-- <header class="navbar">
+           <h1 class="logo"><span id="v">V</span> E N A X</h1>
+         <ul class="navbarContent">
+          <a href="./Index.html"><li>Home</li></a>
+           <a href="#"><li>About</li></a>
+           <a href="#"><li>Services</li></a>
+           <a href="#"><li>Cars</li></a>
+           <a href="#"><li>Pages</li></a>
+           <a href="#"><li>Blog</li></a>
+         
+     
+         </ul>
+     
+         <div id="contact" >
+           <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+           <div id="help">
+             <p id="number">8839073108</p>
+           </div>
+         </div>
+     
+        
+           <a href="./SignUp.html" id="signupbtn">
+             <div id="userInfo">
+           <i class="fa-solid fa-user" id="userIcon"></i>
+           <p id="loginBtn">Login or Sign Up</p>
+         </div>
+           </a>
+
+           <label for="checkbox" id="bars"><i class="fa-solid fa-bars"></i></label>
+         
+       </header> -->
+         
+       <div class="slideTwoContent" 
+       data-aos="fade-up"
+      data-aos-offset="500"
+      data-aos-easing="ease-in-sine" 
+      data-aos-delay="3000"
+      data-aos-duration="9000">
+        <h1 class="ananya1">Find Your Perfect Ride, <p>Anytime. Anywhere.</p>   </h1>
+        <button  id="mainbtn" onclick="rentNow()">Rent Now</button>
+       </div>
+       
+       </div>
+
+       <!-- Slide 3 -->
+
+       <div class="swiper-slide" ><img src="./car 3.jpg" alt="">
+         <!-- <header class="navbar">
+           <h1 class="logo"><span id="v">V</span> E N A X</h1>
+         <ul class="navbarContent">
+          <a href="./Index.html"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Services</li></a>
+          <a href="#"><li>Cars</li></a>
+          <a href="#"><li>Pages</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+     
+         </ul>
+     
+         <div id="contact" >
+           <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+           <div id="help">
+             <p id="number">8839073108</p>
+           </div>
+         </div>
+     
+        
+           <a href="./SignUp.html" id="signupbtn">
+             <div id="userInfo">
+           <i class="fa-solid fa-user" id="userIcon"></i>
+           <p id="loginBtn">Login or Sign Up</p>
+         </div>
+           </a>
+         
+           <label for="checkbox" id="bars"><i class="fa-solid fa-bars"></i></label>
+       </header> -->
+       <div class="slideThreeContent" 
+       data-aos="fade-up"
+      data-aos-offset="500"
+      data-aos-easing="ease-in-sine" 
+      data-aos-delay="3000"
+      data-aos-duration="9000">
+        <h1 class="ananya2">Explore Our Fleet. <p>Choose from a variety of vehicles, <br>economy,luxury,SUVs and more. </p>  </h1>
+        <button  id="mainbtn" onclick="rentNow()">Rent Now</button>
+       </div>
+
+       </div>
+
+       <!-- Slide 4 -->
+
+       <div class="swiper-slide"><img src="./car 2.jpg" alt="">
+         <!-- <header class="navbar">
+           <h1 class="logo"><span id="v">V</span> E N A X</h1>
+         <ul class="navbarContent">
+          <a href="./Index.html"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Services</li></a>
+          <a href="#"><li>Cars</li></a>
+          <a href="#"><li>Pages</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+     
+         </ul>
+     
+         <div id="contact" >
+           <i class="fa-solid fa-phone-volume" id="callIcon"></i>
+           <div id="help">
+             <p id="number">8839073108</p>
+           </div>
+         </div>
+     
+        
+           <a href="./SignUp.html" id="signupbtn">
+             <div id="userInfo">
+           <i class="fa-solid fa-user" id="userIcon"></i>
+           <p id="loginBtn">Login or Sign Up</p>
+         </div>
+           </a>
+         
+           <label for="checkbox" id="bars"><i class="fa-solid fa-bars"></i></label>
+       </header> -->
+
+       <div class="slideFourContent" 
+       data-aos="fade-up"
+      data-aos-offset="500"
+      data-aos-easing="ease-in-sine" 
+      data-aos-delay="3000"
+      data-aos-duration="9000">
+        <h1 class="ananya3">Free Cancellation & 24/7 Support. <p>Plans changed? <br> <span id="SFC">No worries, We've got you covered with free cancellation <br> and round-the-clock customer service.</span> </p>  </h1>
+        <button  id="mainbtn" onclick="rentNow()">Rent Now</button>
+       </div>
+
+       
+     </div>
+
+     <!-- End of Slides -->
+     
+     </div>
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-pagination"></div>
+     <div class="autoplay-progress">
+       <svg viewBox="0 0 48 48">
+         <circle cx="24" cy="24" r="20"></circle>
+       </svg>
+       <span></span>
+     </div>
+
+
+     
+   </div>
+
+  
+
+<!--          Section 2        -->
+
+<section class="sec2">
+<h1><span id="our">Our </span>  Services</h1>
+
+
+<div>
+
+   <!--                Swiper 2                 -->
+
+   <div class="swiper mySwiper2" id="swiper">
+    <div class="swiper-wrapper" id="swiperContainer">
+      <div class="swiper-slide"><img src="./car 5.jpg" alt="">
+        <p class="sec2para">Corporate Car Rental</p>
+      </div>
+      <div class="swiper-slide"><img src="./car 6.jpg" alt="">
+        <p class="sec2para">Car Rental with Driver</p>
+      </div>
+      <div class="swiper-slide"><img src="./car 7.jpg" alt="">
+        <p class="sec2para">Airport Transfer</p>
+      </div>
+      <div class="swiper-slide"><img src="./car 8.jpg" alt="">
+        <p class="sec2para">Fleet Leasing</p>
+      </div>
+      <div class="swiper-slide"><img src="./car 9.jpg" alt="">
+        <p class="sec2para">Private Transfer</p>
+      </div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+</div>
+
+</section>
+   
+
+<!--          Section 3        -->
+
+<section class="sec3">
+  <p class="categories">C A T E G O R I E S</p>
+  <h1 id="sec3heading"><span id="Rental">Rental </span> Car Types</h1>
+
+
+
+  <div class="marquee"
+  data-aos="zoom-up"
+  data-aos-duration="1000">
+
+    <marquee direction="left" loop="infinite" id="marquee" scrollamount="23px" scroll>
+    <div class="marqueeimg">
+     <div><p class="carName">Luxury Cars</p> <p class="price">Starting from 3000/-</p><img src="./car 11.jpg" alt=""></div>
+     <div><p class="carName">Sport Cars</p> <p class="price">Starting from 2500/-</p><img src="./car 12.jpg" alt=""></div>
+     <div><p class="carName">SUV Cars</p> <p class="price">Starting from 2000/-</p><img src="./car 13.jpg" alt=""></div>
+     <div><p class="carName">Convertible Cars</p> <p class="price">Starting from 2500/-</p><img src="./car 14.jpg" alt=""></div>
+     <div><p class="carName">Sedan Cars</p> <p class="price">Starting from 2000/-</p><img src="./car 15.jpg" alt=""></div>
+     <div><p class="carName">Small Cars</p> <p class="price">Starting from 2000/-</p><img src="./car 16.jpg" alt=""></div>
+   
+    </marquee>
+  </div>
+  
+</section>
+
+<!-- Section 4 -->
+
+<section class="sec4">
+
+  <p class="categories">S T E P S</p>
+  <h1 id="sec3heading"><span id="Rental">Car Rental </span> Process</h1>
+
+
+  <div class="cards" 
+     data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+
+  <div class="card1">
+      <p class="cardHeading">Choose a Car</p>
+      <p class="cardContent">View our range of cars, find your perfect car for the coming days.</p>
+  </div>
+
+  <div class="card2">
+      <p class="cardHeading">Come in Contact</p>
+      <p class="cardContent">Our advisor team is ready to help you with the <br> booking process or any questions.</p>
+  </div>
+
+  <div class="card3">
+      <p class="cardHeading">Enjoy Driving!</p>
+      <p class="cardContent">Receive the key and enjoy your car. We treat all <br> our cars with respect.</p>
+  </div>
+
+</div>
+
+<p class="sec4bottom"> If you've never rented a car before, we'll guide you through the process.</p>
+
+  </section>
+
+  <!-- Section 5 -->
+
+  <section class="sec5">
+
+    <div>
+     
+      <h1 id="sec3heading"><span id="Rental">About </span> Us</h1>
+    </div>
+
+    <div class="aboutUsContent">
+
+      <div class="paragraphs">
+      
+      <p class="para1">At <span >V E N A X</span>, we are passionate about providing a <br> seamless and convenient car rental
+           experience for every traveler. With a fleet of well-maintained, reliable vehicles, we cater to all your transportation needs—whether you're traveling for business, leisure, or any special occasion.</p>
+
+      <p class="para2">Founded with the goal of making car rentals simple, affordable, and accessible, we pride ourselves on our customer-first approach. Our team is dedicated to offering exceptional service, transparent pricing, and flexible rental options tailored to your unique journey.</p>
+
+      <p class="para3">We understand that the road ahead is full of possibilities, and we’re here to make sure your travel experience is smooth from start to finish. Whether you need a compact car for a city adventure or an SUV for a weekend getaway, [Your Company Name] has the perfect vehicle for you.</p>
+
+      <p class="para4">Trust us to get you where you need to go, comfortably and on time. Join thousands of satisfied customers who choose [Your Company Name] for their car rental needs. We’re ready to drive you forward!</p>
+      
+      <div class="icons">
+
+        <p><i class="fa-solid fa-check"></i>We offer multiple services</p>
+
+        <p><i class="fa-solid fa-check"></i>Multiple car repair locations</p>
+
+      </div>
+
+      </div>
+
+      <div class="aboutUsImg"
+      data-aos="zoom-in"
+      data-aos-duration="1000">
+        <img src="./about us img.avif" >
+      </div>
+
+
+
+      
+    </div>
+
+  </section>
+
+  <!-- Section 6 -->
+
+  <section class="sec6">
+    <p class="testimonials">T E S T I M O N I A L S</p>
+    <h1><span id="our">What</span> Clients Say</h1>
+    
+    
+    <div>
+    
+       <!--                Swiper 6                -->
+    
+       <div class="swiper mySwiper2" id="swiper" 
+       data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"
+       >
+        <div class="swiper-wrapper" id="swiperContainer">
+          <div class="swiper-slide">
+            <p class="name">Garima Maheshwari</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non quasi adipisci odio fuga quae ipsam facilis corrupti nihil cumque assumenda vel id perferendis inventore, earum, repellat accusantium amet modi!</p>
+          </div>
+          
+          <div class="swiper-slide">
+            <p class="name">Aastha Shukla</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non quasi adipisci odio fuga quae ipsam facilis corrupti nihil cumque assumenda vel id perferendis inventore, earum, repellat accusantium amet modi!</p>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="name">Abhi Singh</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non quasi adipisci odio fuga quae ipsam facilis corrupti nihil cumque assumenda vel id perferendis inventore, earum, repellat accusantium amet modi!</p>
+          </div>
+          <div class="swiper-slide">
+            <p class="name">Sejal Jain</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non quasi adipisci odio fuga quae ipsam facilis corrupti nihil cumque assumenda vel id perferendis inventore, earum, repellat accusantium amet modi!</p>
+          </div>
+          <div class="swiper-slide">
+            <p class="name">Riya Soni</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non quasi adipisci odio fuga quae ipsam facilis corrupti nihil cumque assumenda vel id perferendis inventore, earum, repellat accusantium amet modi!</p>
+          </div>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    
+    
+    </div>
+    
+    </section>
+
+    
+<!-----------------------------------------Footer-------------------------------------->
+
+
+    <footer>
+
+
+      <div class="footerIcons">
+        <div class="iconContainer">
+          <span><i class="fa-solid fa-phone-volume"></i></span>
+          <div class="border">
+            <p class="iconName">Call us</p>
+            <p class="iconValue">8839073108</p>
+          </div>
+        </div>
+
+        <div class="iconContainer">
+          <span><i class="fa-solid fa-envelope"></i></span>
+          <div class="border">
+          <p class="iconName">Write to us</p>
+          <p class="iconValue">ananyasahu59513@gmail.com</p>
+        </div>
+
+        </div>
+
+        <div class="iconContainer">
+          <span><i class="fa-solid fa-location-dot"></i></span>
+          <div>
+          <p class="iconName">Address</p>
+          <p class="iconValue">MP Nagar,Zone 1,Bhopal</p>
+        </div>
+
+        </div>
+        </div>
+
+        <div class="footerColumns">
+          <div class="column1">
+            <h1 class="footerlogo"><span id="V">V</span>ENAX</h1>
+            <p>Rent a car imperdiet sapien porttito the bibenum ellentesue <br> the commodo erat nesuen.</p>
+            <div class="column1icons">
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-facebook-f" id="facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            </div>
+
+          <div class="column2">
+          <p >Quick Links</p>
+          <ul>
+            <li><i class="fa-solid fa-circle"></i>About</li>
+            <li><i class="fa-solid fa-circle"></i>Cars</li>
+            <li><i class="fa-solid fa-circle"></i>Car types</li>
+            <li><i class="fa-solid fa-circle"></i>Team</li>
+            <li><i class="fa-solid fa-circle"></i>Contact</li>
+          </ul>
+          </div>
+
+          <div class="column3">
+
+            <p class="c3h">Subscribe</p>
+            <p>Want to be notified about our services. Just sign up and we'll <br> send you a notification by email.</p>
+            <div>
+            <input type="email" placeholder="Email Address" id="inpemail">
+            <i class="fa-solid fa-arrow-right" id="column3Icon"></i>
+            </div>
+            
+
+          </div>
+
+          
+        </div>
+
+        <div class="footerBottom">
+          <p>©2025 <span>VENAX.</span> All rights reserved.</p>
+        </div>
+
+       
+
+    </footer>
+  
+          
+        </div>
+
+       
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+          AOS.init();
+        </script>
+        
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <script src="./CRUD.js"></script>
+    
+    <script src="./Home.js"></script>
+
+    <script src="./Login.js"></script>
+</body>
+</html>
