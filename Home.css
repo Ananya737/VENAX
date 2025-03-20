@@ -1011,6 +1011,9 @@ display: none;
 
 
 @media screen and (max-width:426px) {
+  #bars{
+    display: block;
+  }
  .navbarContent{
   display: none;
  }
