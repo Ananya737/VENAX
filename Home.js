@@ -33,7 +33,7 @@ window.onload = function () {
       },
       navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        prevEl: ".swiper-button-prev" 
       },
       on: {
         autoplayTimeLeft(s, time, progress) {

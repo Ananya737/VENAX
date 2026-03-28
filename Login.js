@@ -212,12 +212,3 @@ let rentNow=()=>{
 
 
 
-// let checkLogin=()=>{
-//     if(localStorage.getItem("Name")){
-//         document.querySelector("#newLogin").style.display="none" ;
-//     }
-//     else{
-//         document.querySelector("#signupbtn").style.display="none" ;
-//         document.querySelector("#newLogin").style.display="block" ;
-//     }
-// }
