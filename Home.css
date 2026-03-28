@@ -231,7 +231,8 @@ img{
   .logo{
     font-size: 35px;
     text-shadow: 5px 3px rgb(26, 26, 26);
-    
+    cursor: pointer;
+    color: white;
   }
   #callIcon{
     border: 1px solid #ffffff ;
