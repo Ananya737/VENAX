@@ -8,7 +8,7 @@
     let content=document.createElement("div");
     content.innerHTML="<p>Hello World!!!!</p>";
     document.body.appendChild(content);
-    // alert("hi");
+    alert("hi");
 
     count++;
     if(count>=5){
